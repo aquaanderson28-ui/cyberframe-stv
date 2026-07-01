@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Фильмография — CyberFrame STV</title>
+<title>Безликая тень — CyberFrame STV</title>
 
 <style>
     body {
@@ -44,11 +44,32 @@
         margin-bottom: 20px;
     }
 
-    .film {
+    .desc {
         font-size: 18px;
         max-width: 700px;
-        margin: 15px auto;
+        margin: 20px auto;
         line-height: 1.6;
+    }
+
+    .facts {
+        font-size: 16px;
+        max-width: 700px;
+        margin: 10px auto 30px;
+        line-height: 1.5;
+        color: #a8d4ff;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .gallery img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 60, 120, 0.5);
     }
 
     .back {
@@ -78,54 +99,41 @@
 </style>
 
 </head>
-
 <body>
 
 <header>
-    <h1>Фильмография</h1>
+    <h1>Безликая тень</h1>
 </header>
 
 <div class="section">
-    <h2>🧚 Тёмное фэнтези</h2>
+    <h2>Описание фильма</h2>
 
-    <div class="film">2025 — <strong>«Потерянная фея: Магическое существо»</strong> (Lost Fairy: Magical Creature) — Короткометражный фильм.</div>
+    <div class="desc">
+        «Безликая тень» — полнометражный тёмно‑фэнтезийный фильм 2026 года,
+        являющийся прямым продолжением истории, начатой в «Королевстве Морвейн».  
+        Фильм раскрывает происхождение загадочного существа, лишённого лица,
+        но обладающего способностью видеть прошлое каждого, кого оно касается.  
+        В центре сюжета — столкновение древних сил, пробуждённых нарушенным равновесием магии,
+        и героев, вынужденных противостоять тьме, стремящейся поглотить весь Морвейн.
+    </div>
 
-    <div class="film">2026 — <strong>«Королевство Морвейн»</strong> (The Kingdom of Morvein) — Полнометражный фильм. <em>(Продолжение фильма «Потерянная фея»)</em></div>
+    <div class="facts">
+        <strong>Год:</strong> 2026<br>
+        <strong>Формат:</strong> полнометражный фильм<br>
+        <strong>Связь:</strong> продолжение фильма «Королевство Морвейн»<br>
+        <strong>Вселенная:</strong> цикл Потерянная фея / Морвейн
+    </div>
 
-    <div class="film">2026 — <strong>«Безликая тень»</strong> (The Faceless Shadow) — Полнометражный фильм. <em>(В производстве, продолжение фильма «Королевство Морвейн»)</em></div>
+    <h2>Галерея</h2>
+
+    <div class="gallery">
+        <img src="Snapshot_235.PNG" alt="Скриншот 1">
+        <img src="Snapshot_234.PNG" alt="Скриншот 2">
+        <img src="Snapshot_233.PNG" alt="Скриншот 3">
+    </div>
+
+    <a class="back" href="filmography.html">← Назад к фильмографии</a>
 </div>
-
-<div class="section">
-    <h2>⚫ Киберпанк / Научная фантастика</h2>
-
-    <div class="film">2025 — <strong>«Шаги в обратном направлении — Часть 1»</strong> (Steps in Reverse — Part 1) — Полнометражный фильм. (+18)</div>
-
-    <div class="film">2025 — <strong>«Шаги в обратном направлении — Часть 2»</strong> (Steps in Reverse — Part 2) — Полнометражный фильм. (+18)</div>
-
-    <div class="film">2025 — <strong>«Сотканная из мрака»</strong> (Woven from Darkness) — Полнометражный фильм.</div>
-</div>
-
-<div class="section">
-    <h2>🪐✨ Фантастические миры</h2>
-
-    <div class="film">2026 — <strong>«Эли и Юн»</strong> (Eli & Yun) — Полнометражный фильм.</div>
-
-    <div class="film">2026 — <strong>«Элианна»</strong> (Elianna) — Полнометражный фильм. <em>(Продолжение фильма «Эли и Юн»)</em></div>
-
-    <div class="film">2026 — <strong>«Юнелла»</strong> (Yunella) — Полнометражный фильм. <em>(Планируется)</em></div>
-
-    <div class="film">2026 — <strong>«Талисса»</strong> (Talissa) — Полнометражный фильм. <em>(Планируется)</em></div>
-</div>
-
-<div class="section">
-    <h2>🌙 Отдельные проекты</h2>
-
-    <div class="film">2026 — <strong>«Люми»</strong> (Lumi) — Короткометражный фильм. <em>(В разработке)</em></div>
-
-    <div class="film">2026 — <strong>«Наследник»</strong> (Heir) — Полнометражный фильм. <em>(Планируется)</em></div>
-</div>
-
-<a class="back" href="index.html">← Назад на главную</a>
 
 <img src="CyberFrame STV.PNG" alt="Logo" class="logo">
 
