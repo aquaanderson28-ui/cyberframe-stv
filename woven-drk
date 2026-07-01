@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Шаги в обратном направлении — Часть 1</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: url('enhance-hu-66fba8-546-[problembo.com].jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: #cce8ff;
+        text-align: center;
+    }
+
+    header {
+        padding: 120px 20px;
+        background: rgba(0, 10, 20, 0.75);
+        border-bottom: 1px solid #0f3b66;
+        box-shadow: 0 0 40px #0f3b66;
+    }
+
+    h1 {
+        font-size: 64px;
+        margin: 0;
+        letter-spacing: 4px;
+        color: #7fc7ff;
+        text-shadow: 0 0 20px #4aa3ff;
+        animation: glow 3s infinite alternate;
+    }
+
+    @keyframes glow {
+        from { text-shadow: 0 0 20px #4aa3ff; }
+        to { text-shadow: 0 0 40px #7fc7ff; }
+    }
+
+    p {
+        font-size: 22px;
+        margin-top: 20px;
+        color: #b7d9ff;
+        opacity: 0.9;
+    }
+
+    .section {
+        padding: 80px 20px;
+        background: rgba(0, 10, 20, 0.65);
+        margin: 40px auto;
+        border-radius: 12px;
+        max-width: 900px;
+        box-shadow: 0 0 30px rgba(0, 60, 120, 0.4);
+    }
+
+    .section h2 {
+        font-size: 36px;
+        color: #7fc7ff;
+        margin-bottom: 20px;
+    }
+
+    .section p {
+        font-size: 18px;
+        max-width: 700px;
+        margin: auto;
+        line-height: 1.6;
+    }
+
+    .main-image {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 60, 120, 0.4);
+        margin-bottom: 40px;
+    }
+
+    .gallery img {
+        width: 30%;
+        margin: 10px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 60, 120, 0.4);
+    }
+
+    .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 14px 28px;
+        background: #0f3b66;
+        color: #cce8ff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 20px;
+        box-shadow: 0 0 20px rgba(0, 60, 120, 0.5);
+    }
+
+    footer {
+        padding: 40px;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+
+    .logo {
+        width: 160px;
+        display: block;
+        margin: 20px auto;
+        opacity: 0.9;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>CyberFrame STV</h1>
+    <p>Авторские миры • Собственные фильмы • Синтетическая эстетика</p>
+</header>
+
+<div class="section">
+    <h2>О фильме «Шаги в обратном направлении — Часть 1»</h2>
+
+    <!-- ГЛАВНЫЙ КАДР -->
+    <img src="Snapshot_253.PNG" alt="Главный кадр" class="main-image">
+
+    <p>
+Описание фильма<br>
+«Сотканная из мрака» — мрачная научно‑фантастическая история о женщине, которая просыпается в разрушенном мегаполисе после серии корпоративных войн.  
+Её тело частично заменено экспериментальными синтетическими модулями, а память — разорвана на фрагменты.  
+Пытаясь восстановить свою личность, она сталкивается с теневыми структурами, которые используют людей как материал для создания новых форм сознания.  
+Фильм исследует тему утраты человеческой природы, превращения и борьбы за собственное «я» в мире, где мрак стал основой технологий.
+    </p>
+
+    <p>
+Год: 2025<br>
+Формат: полнометражный фильм<br>
+Связь: начало цикла «Шаги в обратном направлении»<br>
+Вселенная: цикл Шаги в обратном направлении
+    </p>
+</div>
+
+<div class="section">
+    <h2>Скриншоты</h2>
+    <div class="gallery">
+        <img src="Snapshot_250.PNG" alt="Скриншот 1">
+        <img src="Snapshot_251.PNG" alt="Скриншот 2">
+        <img src="Snapshot_252.PNG" alt="Скриншот 3">
+    </div>
+</div>
+
+<div class="section">
+    <a href="filmography.html" class="back-button">Назад к фильмографии</a>
+</div>
+
+<footer>
+    © 2025 CyberFrame STV
+</footer>
+
+<img src="CyberFrame STV.PNG" alt="Logo" class="logo">
+
+</body>
+</html>
