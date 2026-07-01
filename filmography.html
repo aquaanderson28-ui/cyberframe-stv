@@ -5,28 +5,26 @@
     <title>Фильмография</title>
     <style>
         body {
-        margin: 0;
-        padding: 0;
-        background: url('enhance-hu-376890-669-[problembo.com].jpg') no-repeat center center fixed; 
-        background-size: cover;
-        font-family: Arial, sans-serif;
-        color: #cce8ff;
-        text-align: center;
+            margin: 0;
+            padding: 0;
+            background: url('enhance-hu-376890-669-[problembo.com].jpg') no-repeat center center fixed; 
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #cce8ff;
+            text-align: center;
         }
 
-        /* ПЛЁНКА — единственное добавление */
         .overlay {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.35); /* затемнение */
-            backdrop-filter: blur(3px);       /* эффект плёнки */
+            background: rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(3px);
             z-index: 0;
         }
 
-        /* Контент поверх плёнки */
         body * {
             position: relative;
             z-index: 1;
@@ -72,13 +70,13 @@
 
 <body>
 
-<!-- ПЛЁНКА -->
 <div class="overlay"></div>
 
 <header>
     <h1>Фильмография</h1>
 </header>
 
+<!-- Тёмное фэнтези -->
 <div class="section">
     <h2>🧚 Тёмное фэнтези</h2>
 
@@ -95,6 +93,7 @@
     </div>
 </div>
 
+<!-- Киберпанк -->
 <div class="section">
     <h2>⚫ Киберпанк / Научная фантастика</h2>
 
@@ -107,16 +106,17 @@
     </div>
 
     <div class="film">
-       2025 — <a href="woven-drk.html">«Сотканная из мрака»</a>
+        2025 — <a href="woven-drk.html">«Сотканная из мрака»</a>
     </div>
 </div>
 
+<!-- Фантастические миры -->
 <div class="section">
     <h2>🪐✨ Фантастические миры</h2>
 
- <div class="film">
-    2026 — <a href="eli-yun.html">«Эли и Юн»</a>  
-</div>
+    <div class="film">
+        2026 — <a href="eli-yun.html">«Эли и Юн»</a>
+    </div>
 
     <div class="film">
         2026 — <a href="elianna.html">«Элианна»</a>
@@ -131,6 +131,7 @@
     </div>
 </div>
 
+<!-- Отдельные проекты -->
 <div class="section">
     <h2>🌙 Отдельные проекты</h2>
 
@@ -138,10 +139,9 @@
         2026 — <a href="lumi.html">«Люми»</a> — Короткометражный фильм. <em>(В разработке)</em>
     </div>
 
-<div class="film">
-    2026 — <a href="cyberframe-stv/naslednik.html">«Наследник»</a> — Полнометражный фильм. <em>(Планируется)</em>
-</div>
-
+    <div class="film">
+        2026 — <a href="naslednik.html">«Наследник»</a> — Полнометражный фильм. <em>(Планируется)</em>
+    </div>
 </div>
 
 <a class="back" href="index.html">← Назад на главную</a>
