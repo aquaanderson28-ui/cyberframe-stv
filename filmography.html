@@ -7,11 +7,29 @@
         body {
         margin: 0;
         padding: 0;
-        background: url('enhance-hu-66fba8-546-[problembo.com].jpg') no-repeat center center fixed;
+        background: url('enhance-hu-376890-669-[problembo.com].jpg') no-repeat center center fixed;
         background-size: cover;
         font-family: Arial, sans-serif;
         color: #cce8ff;
         text-align: center;
+        }
+
+        /* ПЛЁНКА — единственное добавление */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.35); /* затемнение */
+            backdrop-filter: blur(3px);       /* эффект плёнки */
+            z-index: 0;
+        }
+
+        /* Контент поверх плёнки */
+        body * {
+            position: relative;
+            z-index: 1;
         }
 
         header h1 {
@@ -53,6 +71,9 @@
 </head>
 
 <body>
+
+<!-- ПЛЁНКА -->
+<div class="overlay"></div>
 
 <header>
     <h1>Фильмография</h1>
