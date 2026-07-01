@@ -1,120 +1,153 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Шаги в обратном направлении — Часть 1</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: url('bg-steps1.jpg') no-repeat center center fixed;
-            background-size: cover;
-            font-family: Arial, sans-serif;
-            color: #cce8ff;
-            text-align: center;
-        }
+<meta charset="UTF-8">
+<title>CyberFrame STV</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: url('enhance-hu-66fba8-546-[problembo.com].jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: #cce8ff;
+        text-align: center;
+    }
 
-        header h1 {
-            font-size: 36px;
-            margin-top: 40px;
-            margin-bottom: 30px;
-        }
+    header {
+        padding: 120px 20px;
+        background: rgba(0, 10, 20, 0.75);
+        border-bottom: 1px solid #0f3b66;
+        box-shadow: 0 0 40px #0f3b66;
+    }
 
-        .container {
-            width: 80%;
-            margin: auto;
-            background: rgba(0, 0, 0, 0.45);
-            padding: 30px;
-            border-radius: 12px;
-            backdrop-filter: blur(4px);
-        }
+    h1 {
+        font-size: 64px;
+        margin: 0;
+        letter-spacing: 4px;
+        color: #7fc7ff;
+        text-shadow: 0 0 20px #4aa3ff;
+        animation: glow 3s infinite alternate;
+    }
 
-        .thumbs {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            position: absolute;
-            left: 20px;
-            top: 20px;
-        }
+    @keyframes glow {
+        from { text-shadow: 0 0 20px #4aa3ff; }
+        to { text-shadow: 0 0 40px #7fc7ff; }
+    }
 
-        .thumbs img {
-            width: 140px;
-            border-radius: 8px;
-        }
+    p {
+        font-size: 22px;
+        margin-top: 20px;
+        color: #b7d9ff;
+        opacity: 0.9;
+    }
 
-        .main-image {
-            width: 60%;
-            border-radius: 12px;
-            margin-bottom: 25px;
-        }
+    .section {
+        padding: 80px 20px;
+        background: rgba(0, 10, 20, 0.65);
+        margin: 40px auto;
+        border-radius: 12px;
+        max-width: 900px;
+        box-shadow: 0 0 30px rgba(0, 60, 120, 0.4);
+    }
 
-        p {
-            font-size: 20px;
-            line-height: 1.5;
-        }
+    .section h2 {
+        font-size: 36px;
+        color: #7fc7ff;
+        margin-bottom: 20px;
+    }
 
-        .back-button {
-            display: inline-block;
-            margin-top: 30px;
-            font-size: 22px;
-            color: #7fc8ff;
-            text-decoration: none;
-        }
+    .section p {
+        font-size: 18px;
+        max-width: 700px;
+        margin: auto;
+        line-height: 1.6;
+    }
 
-        .back-button:hover {
-            text-decoration: underline;
-        }
+    .main-image {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgba(0, 60, 120, 0.4);
+        margin-bottom: 40px;
+    }
 
-        footer {
-            margin-top: 40px;
-            font-size: 16px;
-            opacity: 0.7;
-        }
+    .gallery img {
+        width: 30%;
+        margin: 10px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 60, 120, 0.4);
+    }
 
-        .logo {
-            width: 180px;
-            margin-top: 20px;
-        }
-    </style>
+    .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 14px 28px;
+        background: #0f3b66;
+        color: #cce8ff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 20px;
+        box-shadow: 0 0 20px rgba(0, 60, 120, 0.5);
+    }
+
+    footer {
+        padding: 40px;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+
+    .logo {
+        width: 160px;
+        display: block;
+        margin: 20px auto;
+        opacity: 0.9;
+    }
+</style>
 </head>
 
 <body>
 
-<div class="thumbs">
-    <img src="Snapshot_241.PNG" alt="">
-    <img src="Snapshot_242.PNG" alt="">
-    <img src="Snapshot_243.PNG" alt="">
-  
-</div>
-
 <header>
-    <h1>О фильме «Шаги в обратном направлении — Часть 1»</h1>
+    <h1>CyberFrame STV</h1>
+    <p>Авторские миры • Собственные фильмы • Синтетическая эстетика</p>
 </header>
 
-<div class="container">
+<div class="section">
+    <h2>О фильме «Безликая тень»</h2>
 
-    <img src="steps1-main.jpg" class="main-image" alt="Главный кадр">
+    <!-- ГЛАВНЫЙ КАДР -->
+    <img src="Snapshot_241.PNG" alt="Главный кадр" class="main-image">
 
-    <p><strong>Описание фильма:</strong><br>
-    «Шаги в обратном направлении — Часть 1» — первая часть научно‑фантастического цикла. После серии разрушительных войн мир пережил серьёзные структурные изменения: демография изменилась, управление перешло к женским консорциумам, а мегакорпорации начали массово производить человекоподобных роботов и синтетиков, практически неотличимых от людей.
-Но не все приняли новый порядок — часть женщин объединилась в независимые группы, выступающие против корпоративного контроля и искусственной замены людей.</p>
+    <p>
+Описание фильма<br>
+После серии разрушительных войн мир пережил серьёзные структурные изменения: демография изменилась, управление перешло к женским консорциумам, а мегакорпорации начали массово производить человекоподобных роботов и синтетиков, практически неотличимых от людей.
+Но не все приняли новый порядок — часть женщин объединилась в независимые группы, выступающие против корпоративного контроля и искусственной замены людей.<br><br>
 
-    <p><strong>Год:</strong> 2025</p>
-    <p><strong>Формат:</strong> полнометражный фильм</p>
-
-    <p><strong>Связь:</strong> первая часть дилогии</p>
-    <p><strong>Вселенная:</strong> цикл «Шаги в обратном направлении»</p>
-
-    <a href="filmography.html" class="back-button">← Назад к фильмографии</a>
-
-    <footer>
-        © 2025–2026 CyberFrame STV
-    </footer>
-
-    <img src="CyberFrame STV.PNG" alt="Logo" class="logo">
-
+Год: 2026<br>
+Формат: полнометражный фильм<br>
+Связь: продолжение фильма «Королевство Морвейн»<br>
+Вселенная: цикл Потерянная фея
+    </p>
 </div>
+
+<div class="section">
+    <h2>Скриншоты</h2>
+    <div class="gallery">
+        <img src="Snapshot_244.PNG" alt="Скриншот 1">
+        <img src="Snapshot_242.PNG" alt="Скриншот 2">
+        <img src="Snapshot_245.PNG" alt="Скриншот 3">
+    </div>
+</div>
+
+<div class="section">
+    <a href="filmography.html" class="back-button">Назад к фильмографии</a>
+</div>
+
+<footer>
+    © 2025 CyberFrame STV
+</footer>
+
+<img src="CyberFrame STV.PNG" alt="Logo" class="logo">
 
 </body>
 </html>
